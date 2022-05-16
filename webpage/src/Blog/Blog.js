@@ -69,12 +69,6 @@ const sidebar = {
     { title: 'January 2020', url: '#' },
     { title: 'November 1999', url: '#' },
     { title: 'October 1999', url: '#' },
-    { title: 'September 1999', url: '#' },
-    { title: 'August 1999', url: '#' },
-    { title: 'July 1999', url: '#' },
-    { title: 'June 1999', url: '#' },
-    { title: 'May 1999', url: '#' },
-    { title: 'April 1999', url: '#' },
   ],
   social: [
     { name: 'GitHub', icon: GitHubIcon },

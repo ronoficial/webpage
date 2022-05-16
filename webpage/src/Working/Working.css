@@ -1,0 +1,32 @@
+a:visited, a:active, a:link{
+	color: inherit;
+}
+
+a {
+	text-decoration: none;	
+}
+
+a:hover {
+	color: blanchedalmond;
+}
+
+/* html, body {
+	margin:0;
+	height:100%;
+
+  } */
+
+/* #root{
+	height:100%;
+	margin: 0;
+	padding: 0;
+	background: url('../img/ships_1.jpg');
+	background-position: 'center';
+	background-size: 'cover';
+	background-repeat: 'no-repeat';
+}
+
+
+h1{
+	color:white;
+} */

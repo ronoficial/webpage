@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Blog from './Blog/Blog';
+import Working from './Working/Working';
+import SignInSide from './SignIn/SignInSide'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Blog />
+    <Working />
   </React.StrictMode>
 );
 
