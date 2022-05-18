@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.37e01f9f.css",
-    "main.js": "/static/js/main.56edd483.js",
+    "main.css": "/static/css/main.8005cce9.css",
+    "main.js": "/static/js/main.ca755b3a.js",
     "static/js/787.98498dfe.chunk.js": "/static/js/787.98498dfe.chunk.js",
     "static/media/america_map.png": "/static/media/america_map.9d5c270cd928dbe60b6e.png",
     "static/media/map-267241.jpg": "/static/media/map-267241.887c3fae8bb24230fcd0.jpg",
     "static/media/ships_1.jpg": "/static/media/ships_1.2af9b05be7f449805d3a.jpg",
+    "static/media/LOGOTIPO_RON.png": "/static/media/LOGOTIPO_RON.93adf172a983daa4241d.png",
     "static/media/blog-post.1.md": "/static/media/blog-post.1.0c315da1f0a7af641a3a.md",
     "static/media/blog-post.2.md": "/static/media/blog-post.2.bec33d7c8bf27858ce0c.md",
     "static/media/blog-post.3.md": "/static/media/blog-post.3.0a90113db17c3659cca0.md",
     "index.html": "/index.html",
-    "main.37e01f9f.css.map": "/static/css/main.37e01f9f.css.map",
-    "main.56edd483.js.map": "/static/js/main.56edd483.js.map",
+    "main.8005cce9.css.map": "/static/css/main.8005cce9.css.map",
+    "main.ca755b3a.js.map": "/static/js/main.ca755b3a.js.map",
     "787.98498dfe.chunk.js.map": "/static/js/787.98498dfe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37e01f9f.css",
-    "static/js/main.56edd483.js"
+    "static/css/main.8005cce9.css",
+    "static/js/main.ca755b3a.js"
   ]
 }
