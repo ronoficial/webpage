@@ -1,0 +1,44 @@
+.RRSSbutton:visited, .RRSSbutton:active, .RRSSbutton:link{
+	color: inherit;
+}
+
+.RRSSbutton {
+	color: inherit;
+	text-decoration: none;	
+	transition: 0.1s;
+}
+
+.RRSSbutton:hover {
+	color: rgb(255, 235, 205);
+	transform: scale(1.05);
+}
+
+.RRSSbutton > svg{
+	filter: drop-shadow(4px 3px 3px rgba(194, 194, 194, 0.3));
+}
+
+@media only screen and (min-width: 768px) {
+	.show-in-desktop {
+		display:block;
+	}
+	.show-in-mobile {
+		display:none;
+	}
+	.RRSScontainer{
+		max-width: 50%;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.show-in-mobile {
+		display:block;
+	}
+	.show-in-desktop {
+		display:none;
+		}
+	.RRSScontainer{
+		max-width: 70%;
+	}
+}
+
+
