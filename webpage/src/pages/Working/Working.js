@@ -9,8 +9,8 @@ import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/s
 import Icon from '@mdi/react';
 // import { mdiAccount } from '@mdi/js';
 import { mdiSpotify } from '@mdi/js'; 
-import background from '../_img/ships_1.jpg';
-import background404 from '../_img/america_map.png';
+import background from '../_img/ships_1.webp';
+import background404 from '../_img/america_map.webp';
 import './Working.css';
 
 let theme = createTheme({

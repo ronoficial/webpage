@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import Typography from '@mui/material/Typography';
-import RONLogo from '../_img/LOGOTIPO_RON.png';
+import RONLogo from '../_img/LOGOTIPO_RON.webp';
 import {hideOnMobile} from '../../App';
 //import Link from '@mui/material/Link';
 //import Image from 'material-ui-image'
@@ -19,6 +19,8 @@ const defaultSections = [
 	{ title: 'Eventos', url: '/Working' },
 	{ title: 'Noticias', url: '/Working' },
 	{ title: 'Fotos', url: '/Working' },
+	{ title: 'Quienes somos', url: '/Working' },
+	{ title: 'Merch', url: '/Working' },
 ];
 
 function Header(props) {
@@ -42,17 +44,20 @@ function Header(props) {
 					noWrap
 					sx={{ flex: 1 }}
 				>
-					<Link to = {'/home'}>
+					<Link to = {'/home'}> 
 						<img
 							src= {RONLogo}
-							alt= {title}
-							height= {'85px'}
+							alt= {props.titulo}
 							style= {{
 								paddingTop: '8px',
+								paddingBottom: '0',
 								align: 'center',
 								flex: 1,
+								maxWidth: '100px',
+								width: 'auto',
+								height: 'auto',
 							}}
-						/>
+						/> 
 					</Link>	
 				</Typography>
 				{hideOnMobile && 
